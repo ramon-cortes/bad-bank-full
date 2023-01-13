@@ -1,0 +1,113 @@
+.container-fluid {
+  background-color: rgb(144, 184, 144);
+}
+
+.card-header {
+  background-color: rgb(144, 184, 144);
+}
+
+.card-padding {
+  z-index: 0;
+  padding-left: 10px;
+}
+
+.nav-link {
+  border-radius: 8px;
+}
+
+.link-rcl:hover {
+  font-weight: bolder;
+}
+
+.active-rcl {
+  background-color: rgb(81, 129, 81);
+  color: rgb(0, 0, 0) !important;
+}
+
+.centered {
+  text-align: center;
+}
+
+.boton-rcl {
+  background-color: rgb(81, 129, 81);
+  border-radius: 7px;
+}
+
+.boton-deshabilitado {
+  color: rgb(160, 160, 160);
+}
+
+#tooltip-home {
+  font-size: small;
+  background-color: rgb(2, 43, 4);
+  color: white;
+  position: absolute;
+  z-index: 1;
+  animation: fadeIn 1s;
+  display: none;
+  top: 55px;
+  left: 5px;
+  border-radius: 5px;
+}
+
+#tooltip-createaccount {
+  font-size: small;
+  background-color: rgb(2, 43, 4);
+  color: white;
+  position: absolute;
+  z-index: 1;
+  animation: fadeIn 1s;
+  display: none;
+  top: 55px;
+  left: 180px;
+  border-radius: 5px;
+}
+
+#tooltip-deposit {
+  font-size: small;
+  background-color: rgb(2, 43, 4);
+  color: white;
+  position: absolute;
+  z-index: 1;
+  animation: fadeIn 1s;
+  display: none;
+  top: 55px;
+  left: 275px;
+  border-radius: 5px;
+}
+
+#tooltip-withdraw {
+  font-size: small;
+  background-color: rgb(2, 43, 4);
+  color: white;
+  position: absolute;
+  z-index: 1;
+  animation: fadeIn 1s;
+  display: none;
+  top: 55px;
+  left: 355px;
+  border-radius: 5px;
+}
+
+#tooltip-alldata {
+  font-size: small;
+  background-color: rgb(2, 43, 4);
+  color: white;
+  position: absolute;
+  z-index: 1;
+  animation: fadeIn 1s;
+  display: none;
+  top: 55px;
+  left: 445px;
+  border-radius: 5px;
+}
+
+/*From https://stackdiary.com/hover-tooltip-javascript/ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+ }
