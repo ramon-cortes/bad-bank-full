@@ -10,7 +10,7 @@ function Home() {
         <h5 className="card-title card-header text-center">Bad Bank - Home Page</h5>      
         <div className="card-body">
           <div className="centered">
-            <img src="/img/bank-logo.jpg" alt="Bad Bank Logo" />
+            <img src="./img/bank-logo.jpg" alt="Bad Bank Logo" />
           </div>          
           <p className="card-text">Welcome<br />For all of your Bad Banking needs</p>
         </div>
